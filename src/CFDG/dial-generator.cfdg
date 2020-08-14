@@ -1,0 +1,37 @@
+R = 0.2..0.5
+
+startshape A ( R ) [ b 0.9 sat 0.4 h 160 ]
+
+//CF::Background = [ b -0.75 h 258 sat 0.2]
+CF::MinimumSize = 1
+
+shape A ( number n )
+{    
+    loop (20*n) [ r (60*n) ]
+    {
+        SQUARE [ x 100 ]
+    }
+    
+    A ( n ) [ r n ]
+}
+rule 0.01
+{
+    SQUARE [[ x 97.5 s 6 1 ]]
+        
+    B [ s 0.95 sat -0.01 b 0.01]
+}
+
+shape B
+rule
+{
+    A ( R  ) []
+}
+rule
+{
+    A ( -1*R  ) []
+}
+rule 0.01
+{
+    A ( R  ) []
+    A ( -1*R  ) []
+}
