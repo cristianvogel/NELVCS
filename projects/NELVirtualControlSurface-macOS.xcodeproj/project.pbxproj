@@ -37,8 +37,6 @@
 		3E84995124E68F8B001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84991724E68F8B001F8505 /* NEL_PacketSender.cpp */; };
 		3E84995224E68F8B001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84991724E68F8B001F8505 /* NEL_PacketSender.cpp */; };
 		3E84995324E68F8B001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84991724E68F8B001F8505 /* NEL_PacketSender.cpp */; };
-		3E84995424E68F8B001F8505 /* NEL_VCS_Constants.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E84991824E68F8B001F8505 /* NEL_VCS_Constants.hpp */; };
-		3E84995524E68F8B001F8505 /* NEL_VCS_Constants.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E84991824E68F8B001F8505 /* NEL_VCS_Constants.hpp */; };
 		3E84995624E68F8B001F8505 /* NEL_EditableText.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E84991924E68F8B001F8505 /* NEL_EditableText.hpp */; };
 		3E84995724E68F8B001F8505 /* NEL_EditableText.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E84991924E68F8B001F8505 /* NEL_EditableText.hpp */; };
 		3E84995824E68F8B001F8505 /* NEL_PacketListener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E84991A24E68F8B001F8505 /* NEL_PacketListener.hpp */; };
@@ -299,6 +297,8 @@
 		3E849B5824E69936001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849B2424E69935001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
 		3E849B5924E69936001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849B2424E69935001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
 		3E849B5A24E69936001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849B2424E69935001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
+		3EA1B8BC24E7FD5C00E81507 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FBBED30D0CF143001C8B8A /* config.h */; };
+		3EA1B8BD24E7FD5D00E81507 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FBBED30D0CF143001C8B8A /* config.h */; };
 		4F03A57A20A4621100EBDFFB /* IGraphicsLice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A54A20A4621000EBDFFB /* IGraphicsLice.h */; };
 		4F03A57B20A4621100EBDFFB /* IGraphicsAGG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A54B20A4621000EBDFFB /* IGraphicsAGG.h */; };
 		4F03A58320A4621100EBDFFB /* IGraphicsLice_src.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A54D20A4621000EBDFFB /* IGraphicsLice_src.h */; };
@@ -706,7 +706,6 @@
 /* Begin PBXFileReference section */
 		3E84991624E68F8B001F8505 /* GlobSeqHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobSeqHelpers.h; sourceTree = "<group>"; };
 		3E84991724E68F8B001F8505 /* NEL_PacketSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_PacketSender.cpp; sourceTree = "<group>"; };
-		3E84991824E68F8B001F8505 /* NEL_VCS_Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_VCS_Constants.hpp; sourceTree = "<group>"; };
 		3E84991924E68F8B001F8505 /* NEL_EditableText.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_EditableText.hpp; sourceTree = "<group>"; };
 		3E84991A24E68F8B001F8505 /* NEL_PacketListener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_PacketListener.hpp; sourceTree = "<group>"; };
 		3E84991D24E68F8B001F8505 /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
@@ -1124,7 +1123,7 @@
 		4FFBB93B20863B0E00DDD0E7 /* NELVirtualControlSurface.vst3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NELVirtualControlSurface.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFBB94120863E9300DDD0E7 /* IPlugVST3_Parameter.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugVST3_Parameter.h; path = ../../../IPlug/VST3/IPlugVST3_Parameter.h; sourceTree = "<group>"; tabWidth = 2; };
 		4FFF72B8214BB71400839091 /* main.rc */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.rc; path = ../resources/main.rc; sourceTree = "<group>"; };
-		52FBBED30D0CF143001C8B8A /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
+		52FBBED30D0CF143001C8B8A /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		B8E22A0A220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugVST3_ProcessorBase.cpp; path = ../../../IPlug/VST3/IPlugVST3_ProcessorBase.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		B8E22A0B220268C4007CBF4C /* IPlugVST3_ProcessorBase.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugVST3_ProcessorBase.h; path = ../../../IPlug/VST3/IPlugVST3_ProcessorBase.h; sourceTree = "<group>"; tabWidth = 2; };
 		B8EA6B932203868500D23A86 /* IPlugVST3_Common.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugVST3_Common.h; path = ../../../IPlug/VST3/IPlugVST3_Common.h; sourceTree = "<group>"; tabWidth = 2; };
@@ -1205,7 +1204,6 @@
 			isa = PBXGroup;
 			children = (
 				3E84991524E68F8B001F8505 /* src */,
-				52FBBED30D0CF143001C8B8A /* config.h */,
 				4F9313232315CA1100DB2383 /* README.md */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				32C88E010371C26100C91783 /* Other Sources */,
@@ -1284,6 +1282,7 @@
 		3E84991524E68F8B001F8505 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				52FBBED30D0CF143001C8B8A /* config.h */,
 				3E849AE024E696DB001F8505 /* NEL_mDNS_IPExtract.h */,
 				3E849AD624E69209001F8505 /* IconsForkAwesome.h */,
 				3E849AC824E69167001F8505 /* NELVirtualControlSurface.cpp */,
@@ -1305,7 +1304,6 @@
 				3E84991724E68F8B001F8505 /* NEL_PacketSender.cpp */,
 				3E84993524E68F8B001F8505 /* NEL_PacketSender.hpp */,
 				3E84992A24E68F8B001F8505 /* NEL_VCS_Constants.h */,
-				3E84991824E68F8B001F8505 /* NEL_VCS_Constants.hpp */,
 				3E84992F24E68F8B001F8505 /* NEL_VCS_Enums.hpp */,
 				3E84991C24E68F8B001F8505 /* osc */,
 			);
@@ -2104,11 +2102,11 @@
 				3E849A0524E68F8B001F8505 /* PacketListener.h in Headers */,
 				3E84999324E68F8B001F8505 /* OscTypes.h in Headers */,
 				3E849AD524E69167001F8505 /* NELVirtualControlSurface.h in Headers */,
-				3E84995524E68F8B001F8505 /* NEL_VCS_Constants.hpp in Headers */,
 				3E84999F24E68F8B001F8505 /* NEL_VCS_Constants.h in Headers */,
 				3E84996724E68F8B001F8505 /* OscPacketListener.h in Headers */,
 				3E849AD824E6920A001F8505 /* IconsForkAwesome.h in Headers */,
 				3E84997324E68F8B001F8505 /* OscPrintReceivedElements.h in Headers */,
+				3EA1B8BD24E7FD5D00E81507 /* config.h in Headers */,
 				3E849A0324E68F8B001F8505 /* TimerListener.h in Headers */,
 				3E849A0724E68F8B001F8505 /* IpEndpointName.h in Headers */,
 				3E849A0124E68F8B001F8505 /* UdpSocket.h in Headers */,
@@ -2149,7 +2147,6 @@
 				4FCE29D621D6ED70004BCBA1 /* ITextEntryControl.h in Headers */,
 				3E8499AA24E68F8B001F8505 /* NEL_OSC_Methods.hpp in Headers */,
 				4F03A5D420A4621100EBDFFB /* IGraphicsUtilities.h in Headers */,
-				3E84995424E68F8B001F8505 /* NEL_VCS_Constants.hpp in Headers */,
 				3E849A3424E68F8B001F8505 /* NEL_DualDial.h in Headers */,
 				4F03A5AA20A4621100EBDFFB /* IGraphicsLiveEdit.h in Headers */,
 				3E849AE124E696DB001F8505 /* NEL_mDNS_IPExtract.h in Headers */,
@@ -2174,6 +2171,7 @@
 				4FC3F0002086CE5700BD11FA /* stringconvert.h in Headers */,
 				4F8C10E720BA2796006320CD /* IGraphicsEditorDelegate.h in Headers */,
 				3E84997224E68F8B001F8505 /* OscPrintReceivedElements.h in Headers */,
+				3EA1B8BC24E7FD5C00E81507 /* config.h in Headers */,
 				4FC3EFFA2086CE5700BD11FA /* parameterchanges.h in Headers */,
 				4F9A82F6213DE80400BE63A4 /* IPopupMenuControl.h in Headers */,
 				4F03A5B320A4621100EBDFFB /* IGraphics_include_in_plug_src.h in Headers */,

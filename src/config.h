@@ -2,8 +2,8 @@
 #define PLUG_MFR "NeverEngineLabs"
 #define PLUG_VERSION_HEX 0x00010000
 #define PLUG_VERSION_STR "1.0.0"
-#define PLUG_UNIQUE_ID 'rqJD'
-#define PLUG_MFR_ID 'Acme'
+#define PLUG_UNIQUE_ID 'neLB'
+#define PLUG_MFR_ID 'NELB'
 #define PLUG_URL_STR "https://iplug2.github.io"
 #define PLUG_EMAIL_STR "spam@me.com"
 #define PLUG_COPYRIGHT_STR "Copyright 2019 Acme Inc"
@@ -37,7 +37,7 @@
 
 #define AAX_TYPE_IDS 'IPME'
 #define AAX_TYPE_IDS_AUDIOSUITE 'IPMA'
-#define AAX_PLUG_MFR_STR "Acme"
+#define AAX_PLUG_MFR_STR "Nel "
 #define AAX_PLUG_NAME_STR "NELVirtualControlSurface\nIPEF"
 #define AAX_PLUG_CATEGORY_STR "Effect"
 #define AAX_DOES_AUDIOSUITE 0
