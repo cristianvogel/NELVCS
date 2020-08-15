@@ -207,13 +207,6 @@
 		3E849A1124E68F8B001F8505 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84993F24E68F8B001F8505 /* IpEndpointName.cpp */; };
 		3E849A1224E68F8B001F8505 /* NetworkingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E84994024E68F8B001F8505 /* NetworkingUtils.h */; };
 		3E849A1324E68F8B001F8505 /* NetworkingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E84994024E68F8B001F8505 /* NetworkingUtils.h */; };
-		3E849A1924E68F8B001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994224E68F8B001F8505 /* NetworkingUtils.cpp */; };
-		3E849A1B24E68F8B001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994224E68F8B001F8505 /* NetworkingUtils.cpp */; };
-		3E849A1F24E68F8B001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994324E68F8B001F8505 /* UdpSocket.cpp */; };
-		3E849A2024E68F8B001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994324E68F8B001F8505 /* UdpSocket.cpp */; };
-		3E849A2224E68F8B001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994324E68F8B001F8505 /* UdpSocket.cpp */; };
-		3E849A2324E68F8B001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994324E68F8B001F8505 /* UdpSocket.cpp */; };
-		3E849A2524E68F8B001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994324E68F8B001F8505 /* UdpSocket.cpp */; };
 		3E849A2824E68F8B001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994424E68F8B001F8505 /* NEL_EditableText.cpp */; };
 		3E849A2924E68F8B001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994424E68F8B001F8505 /* NEL_EditableText.cpp */; };
 		3E849A2A24E68F8B001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994424E68F8B001F8505 /* NEL_EditableText.cpp */; };
@@ -250,9 +243,6 @@
 		3E849AD524E69167001F8505 /* NELVirtualControlSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AC924E69167001F8505 /* NELVirtualControlSurface.h */; };
 		3E849AD724E6920A001F8505 /* IconsForkAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AD624E69209001F8505 /* IconsForkAwesome.h */; };
 		3E849AD824E6920A001F8505 /* IconsForkAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AD624E69209001F8505 /* IconsForkAwesome.h */; };
-		3E849ADC24E69657001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994224E68F8B001F8505 /* NetworkingUtils.cpp */; };
-		3E849ADE24E69663001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994224E68F8B001F8505 /* NetworkingUtils.cpp */; };
-		3E849ADF24E69664001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E84994224E68F8B001F8505 /* NetworkingUtils.cpp */; };
 		3E849AE124E696DB001F8505 /* NEL_mDNS_IPExtract.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AE024E696DB001F8505 /* NEL_mDNS_IPExtract.h */; };
 		3E849AE224E696DB001F8505 /* NEL_mDNS_IPExtract.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AE024E696DB001F8505 /* NEL_mDNS_IPExtract.h */; };
 		3E849B2524E69936001F8505 /* Artboard 1noText.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849B1F24E69935001F8505 /* Artboard 1noText.svg */; };
@@ -2828,7 +2818,6 @@
 				3E84994B24E68F8B001F8505 /* NEL_PacketSender.cpp in Sources */,
 				3E849ACB24E69167001F8505 /* NELVirtualControlSurface.cpp in Sources */,
 				4F6369EC20A466470022C370 /* IControl.cpp in Sources */,
-				3E849ADF24E69664001F8505 /* NetworkingUtils.cpp in Sources */,
 				3E8499D724E68F8B001F8505 /* NEL_mDNS_IPExtract.cpp in Sources */,
 				4FB1F58A20E4B005004157C8 /* IGraphicsMac.mm in Sources */,
 				3E84998724E68F8B001F8505 /* OscPrintReceivedElements.cpp in Sources */,
@@ -2836,7 +2825,6 @@
 				4FA9F80521F760C1004E6FE2 /* IGraphicsLice_src.mm in Sources */,
 				3E8499F724E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				3E84997D24E68F8B001F8505 /* OscReceivedElements.cpp in Sources */,
-				3E849A1F24E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				4FCE29D821D6ED70004BCBA1 /* ITextEntryControl.cpp in Sources */,
 				4F9A82F8213DE80400BE63A4 /* IPopupMenuControl.cpp in Sources */,
 				4F1A527B205D910000CF2908 /* IPlugVST2.cpp in Sources */,
@@ -3044,7 +3032,6 @@
 				4F815919205D50EB00393585 /* memorystream.cpp in Sources */,
 				3E8499F824E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				4F9828C1140A9EB700F3FCC1 /* IPlugParameter.cpp in Sources */,
-				3E849A2024E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				4F81591A205D50EB00393585 /* pluginview.cpp in Sources */,
 				3E84996A24E68F8B001F8505 /* OscTypes.cpp in Sources */,
 				4F815982205D50EB00393585 /* fstring.cpp in Sources */,
@@ -3094,7 +3081,6 @@
 				4F815988205D50EB00393585 /* coreiids.cpp in Sources */,
 				3E8499D824E68F8B001F8505 /* NEL_mDNS_IPExtract.cpp in Sources */,
 				4F815993205D51F000393585 /* vstnoteexpressiontypes.cpp in Sources */,
-				3E849ADE24E69663001F8505 /* NetworkingUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3103,7 +3089,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9A82FB213DE80400BE63A4 /* IPopupMenuControl.cpp in Sources */,
-				3E849A2224E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				3E84996C24E68F8B001F8505 /* OscTypes.cpp in Sources */,
 				3E849A0C24E68F8B001F8505 /* IpEndpointName.cpp in Sources */,
 				4F993F7523055C97000313AF /* IPlugProcessor.cpp in Sources */,
@@ -3135,7 +3120,6 @@
 				4FB600261567CB0A0020189A /* AAX_Exports.cpp in Sources */,
 				3E8499D024E68F8B001F8505 /* NEL_OSC_Methods.cpp in Sources */,
 				4FA9F81121F76177004E6FE2 /* IGraphicsAGG_src.mm in Sources */,
-				3E849ADC24E69657001F8505 /* NetworkingUtils.cpp in Sources */,
 				4F6FD2B522675B6300FC59E6 /* IGraphicsCoreText.mm in Sources */,
 				4FB600281567CB0A0020189A /* IPlugAAX_Describe.cpp in Sources */,
 				4FB1F58D20E4B007004157C8 /* IGraphicsMac.mm in Sources */,
@@ -3161,7 +3145,6 @@
 				4FC3EFF92086CE5700BD11FA /* parameterchanges.cpp in Sources */,
 				3E849A0F24E68F8B001F8505 /* IpEndpointName.cpp in Sources */,
 				3E8499E924E68F8B001F8505 /* NEL_DualDial.cpp in Sources */,
-				3E849A2524E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				3E8499DD24E68F8B001F8505 /* NEL_mDNS_IPExtract.cpp in Sources */,
 				4FC3EFCE2086C35D00BD11FA /* IPlugPluginBase.cpp in Sources */,
 				4F722021225C1EB100FF0E7C /* commoniids.cpp in Sources */,
@@ -3179,7 +3162,6 @@
 				4F78BE2D22E7412300AD537E /* IGraphicsNanoVG_src.m in Sources */,
 				3E8499D324E68F8B001F8505 /* NEL_OSC_Methods.cpp in Sources */,
 				3E849A2F24E68F8B001F8505 /* NEL_EditableText.cpp in Sources */,
-				3E849A1B24E68F8B001F8505 /* NetworkingUtils.cpp in Sources */,
 				3E8499FD24E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3245,7 +3227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849A1924E68F8B001F8505 /* NetworkingUtils.cpp in Sources */,
 				3E849A2D24E68F8B001F8505 /* NEL_EditableText.cpp in Sources */,
 				4FFBB90520863B0E00DDD0E7 /* baseiids.cpp in Sources */,
 				4FFBB90620863B0E00DDD0E7 /* IPlugTimer.cpp in Sources */,
@@ -3297,7 +3278,6 @@
 				3E84998124E68F8B001F8505 /* OscReceivedElements.cpp in Sources */,
 				4F5F344720C0226200487201 /* IPlugPaths.mm in Sources */,
 				3E84998B24E68F8B001F8505 /* OscPrintReceivedElements.cpp in Sources */,
-				3E849A2324E68F8B001F8505 /* UdpSocket.cpp in Sources */,
 				4FFBB93520863B0E00DDD0E7 /* vstnoteexpressiontypes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,12 +16,14 @@ const int kNumPresets = 1;
 
 #pragma mark NEL_enumerators
 
+using namespace iplug;
+using namespace igraphics;
 
-class NELVirtualControlSurface final : public iplug::Plugin
+class NELVirtualControlSurface final : public Plugin
 {
   
 public:
-  NELVirtualControlSurface(const iplug::InstanceInfo& info);
+  NELVirtualControlSurface(const InstanceInfo& info);
   ~NELVirtualControlSurface();
   
   void OnIdle() override;
@@ -80,7 +82,7 @@ public:
   
   
 #if IPLUG_DSP // http://bit.ly/2S64BDd
-  void ProcessBlock(iplug::sample** inputs, iplug::sample** outputs, int nFrames) override;
+  void ProcessBlock(sample** inputs, sample** outputs, int nFrames) override;
 #endif
 };
 
