@@ -7,125 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E849A7324E68FB2001F8505 /* GlobSeqHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4124E68FB2001F8505 /* GlobSeqHelpers.h */; };
-		3E849A7424E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4224E68FB2001F8505 /* NEL_PacketSender.cpp */; };
-		3E849A7524E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4224E68FB2001F8505 /* NEL_PacketSender.cpp */; };
-		3E849A7624E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4224E68FB2001F8505 /* NEL_PacketSender.cpp */; };
-		3E849A7724E68FB2001F8505 /* NEL_VCS_Constants.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4324E68FB2001F8505 /* NEL_VCS_Constants.hpp */; };
-		3E849A7824E68FB2001F8505 /* NEL_EditableText.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4424E68FB2001F8505 /* NEL_EditableText.hpp */; };
-		3E849A7924E68FB2001F8505 /* NEL_PacketListener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4524E68FB2001F8505 /* NEL_PacketListener.hpp */; };
-		3E849A7A24E68FB2001F8505 /* NELVirtualControlSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4624E68FB2001F8505 /* NELVirtualControlSurface.h */; };
-		3E849A7B24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4824E68FB2001F8505 /* OscOutboundPacketStream.cpp */; };
-		3E849A7C24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4824E68FB2001F8505 /* OscOutboundPacketStream.cpp */; };
-		3E849A7D24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4824E68FB2001F8505 /* OscOutboundPacketStream.cpp */; };
-		3E849A7E24E68FB2001F8505 /* OscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4924E68FB2001F8505 /* OscPacketListener.h */; };
-		3E849A7F24E68FB2001F8505 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4A24E68FB2001F8505 /* OscTypes.cpp */; };
-		3E849A8024E68FB2001F8505 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4A24E68FB2001F8505 /* OscTypes.cpp */; };
-		3E849A8124E68FB2001F8505 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A4A24E68FB2001F8505 /* OscTypes.cpp */; };
-		3E849A8224E68FB2001F8505 /* OscPrintReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4B24E68FB2001F8505 /* OscPrintReceivedElements.h */; };
-		3E849A8324E68FB2001F8505 /* MessageMappingOscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4C24E68FB2001F8505 /* MessageMappingOscPacketListener.h */; };
-		3E849A8424E68FB2001F8505 /* OscHostEndianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4D24E68FB2001F8505 /* OscHostEndianness.h */; };
-		3E849A8524E68FB2001F8505 /* OscException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4E24E68FB2001F8505 /* OscException.h */; };
-		3E849A8624E68FB2001F8505 /* OscOutboundPacketStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A4F24E68FB2001F8505 /* OscOutboundPacketStream.h */; };
-		3E849A8724E68FB2001F8505 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5024E68FB2001F8505 /* OscReceivedElements.cpp */; };
-		3E849A8824E68FB2001F8505 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5024E68FB2001F8505 /* OscReceivedElements.cpp */; };
-		3E849A8924E68FB2001F8505 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5024E68FB2001F8505 /* OscReceivedElements.cpp */; };
-		3E849A8A24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5124E68FB2001F8505 /* OscPrintReceivedElements.cpp */; };
-		3E849A8B24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5124E68FB2001F8505 /* OscPrintReceivedElements.cpp */; };
-		3E849A8C24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5124E68FB2001F8505 /* OscPrintReceivedElements.cpp */; };
-		3E849A8D24E68FB2001F8505 /* OscReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5224E68FB2001F8505 /* OscReceivedElements.h */; };
-		3E849A8E24E68FB2001F8505 /* OscTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5324E68FB2001F8505 /* OscTypes.h */; };
-		3E849A8F24E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5424E68FB2001F8505 /* NEL_GlyphButton.cpp */; };
-		3E849A9024E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5424E68FB2001F8505 /* NEL_GlyphButton.cpp */; };
-		3E849A9124E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5424E68FB2001F8505 /* NEL_GlyphButton.cpp */; };
-		3E849A9224E68FB2001F8505 /* NEL_VCS_Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5524E68FB2001F8505 /* NEL_VCS_Constants.h */; };
-		3E849A9624E68FB2001F8505 /* NEL_OSC_Methods.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5724E68FB2001F8505 /* NEL_OSC_Methods.hpp */; };
-		3E849A9724E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5824E68FB2001F8505 /* NELVirtualControlSurface.cpp */; };
-		3E849A9824E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5824E68FB2001F8505 /* NELVirtualControlSurface.cpp */; };
-		3E849A9924E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5824E68FB2001F8505 /* NELVirtualControlSurface.cpp */; };
-		3E849A9A24E68FB2001F8505 /* NEL_GlyphButton.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5924E68FB2001F8505 /* NEL_GlyphButton.hpp */; };
-		3E849A9B24E68FB2001F8505 /* NEL_VCS_Enums.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A5A24E68FB2001F8505 /* NEL_VCS_Enums.hpp */; };
-		3E849A9C24E68FB2001F8505 /* dial-generator.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5C24E68FB2001F8505 /* dial-generator.cfdg */; };
-		3E849A9D24E68FB2001F8505 /* dial-generator.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5C24E68FB2001F8505 /* dial-generator.cfdg */; };
-		3E849A9E24E68FB2001F8505 /* dial-generator.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5C24E68FB2001F8505 /* dial-generator.cfdg */; };
-		3E849A9F24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5D24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg */; };
-		3E849AA024E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5D24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg */; };
-		3E849AA124E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849A5D24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg */; };
-		3E849AA224E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5E24E68FB2001F8505 /* NEL_OSC_Methods.cpp */; };
-		3E849AA324E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5E24E68FB2001F8505 /* NEL_OSC_Methods.cpp */; };
-		3E849AA424E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5E24E68FB2001F8505 /* NEL_OSC_Methods.cpp */; };
-		3E849AA524E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5F24E68FB2001F8505 /* mDNS_IPExtract.cpp */; };
-		3E849AA624E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5F24E68FB2001F8505 /* mDNS_IPExtract.cpp */; };
-		3E849AA724E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A5F24E68FB2001F8505 /* mDNS_IPExtract.cpp */; };
-		3E849AA824E68FB2001F8505 /* NEL_PacketSender.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6024E68FB2001F8505 /* NEL_PacketSender.hpp */; };
-		3E849AA924E68FB2001F8505 /* NEL_DualDial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6124E68FB2001F8505 /* NEL_DualDial.cpp */; };
-		3E849AAA24E68FB2001F8505 /* NEL_DualDial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6124E68FB2001F8505 /* NEL_DualDial.cpp */; };
-		3E849AAB24E68FB2001F8505 /* NEL_DualDial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6124E68FB2001F8505 /* NEL_DualDial.cpp */; };
-		3E849AAC24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6424E68FB2001F8505 /* NetworkingUtils.cpp */; };
-		3E849AAD24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6424E68FB2001F8505 /* NetworkingUtils.cpp */; };
-		3E849AAE24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6424E68FB2001F8505 /* NetworkingUtils.cpp */; };
-		3E849AAF24E68FB2001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6524E68FB2001F8505 /* UdpSocket.cpp */; };
-		3E849AB024E68FB2001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6524E68FB2001F8505 /* UdpSocket.cpp */; };
-		3E849AB124E68FB2001F8505 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6524E68FB2001F8505 /* UdpSocket.cpp */; };
-		3E849AB224E68FB2001F8505 /* UdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6624E68FB2001F8505 /* UdpSocket.h */; };
-		3E849AB324E68FB2001F8505 /* TimerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6724E68FB2001F8505 /* TimerListener.h */; };
-		3E849AB424E68FB2001F8505 /* PacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6824E68FB2001F8505 /* PacketListener.h */; };
-		3E849AB524E68FB2001F8505 /* IpEndpointName.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6924E68FB2001F8505 /* IpEndpointName.h */; };
-		3E849AB624E68FB2001F8505 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6A24E68FB2001F8505 /* IpEndpointName.cpp */; };
-		3E849AB724E68FB2001F8505 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6A24E68FB2001F8505 /* IpEndpointName.cpp */; };
-		3E849AB824E68FB2001F8505 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6A24E68FB2001F8505 /* IpEndpointName.cpp */; };
-		3E849AB924E68FB2001F8505 /* NetworkingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A6B24E68FB2001F8505 /* NetworkingUtils.h */; };
-		3E849AC024E68FB2001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6F24E68FB2001F8505 /* NEL_EditableText.cpp */; };
-		3E849AC124E68FB2001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6F24E68FB2001F8505 /* NEL_EditableText.cpp */; };
-		3E849AC224E68FB2001F8505 /* NEL_EditableText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A6F24E68FB2001F8505 /* NEL_EditableText.cpp */; };
-		3E849AC424E68FB2001F8505 /* NEL_DualDial.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849A7124E68FB2001F8505 /* NEL_DualDial.h */; };
-		3E849AC524E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A7224E68FB2001F8505 /* NEL_PacketListener.cpp */; };
-		3E849AC624E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A7224E68FB2001F8505 /* NEL_PacketListener.cpp */; };
-		3E849AC724E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E849A7224E68FB2001F8505 /* NEL_PacketListener.cpp */; };
-		3E849ADA24E6922F001F8505 /* IconsForkAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E849AD924E6922F001F8505 /* IconsForkAwesome.h */; };
-		3E849AF424E697D8001F8505 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE424E697D8001F8505 /* Roboto-Regular.ttf */; };
-		3E849AF524E697D8001F8505 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE424E697D8001F8505 /* Roboto-Regular.ttf */; };
-		3E849AF624E697D8001F8505 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE424E697D8001F8505 /* Roboto-Regular.ttf */; };
-		3E849AF724E697D8001F8505 /* Menlo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE524E697D8001F8505 /* Menlo-Regular.ttf */; };
-		3E849AF824E697D8001F8505 /* Menlo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE524E697D8001F8505 /* Menlo-Regular.ttf */; };
-		3E849AF924E697D8001F8505 /* Menlo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE524E697D8001F8505 /* Menlo-Regular.ttf */; };
-		3E849AFA24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE624E697D8001F8505 /* forkawesome-webfont.ttf */; };
-		3E849AFB24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE624E697D8001F8505 /* forkawesome-webfont.ttf */; };
-		3E849AFC24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE624E697D8001F8505 /* forkawesome-webfont.ttf */; };
-		3E849AFD24E697D8001F8505 /* Artboard 1noText.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE824E697D8001F8505 /* Artboard 1noText.svg */; };
-		3E849AFE24E697D8001F8505 /* Artboard 1noText.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE824E697D8001F8505 /* Artboard 1noText.svg */; };
-		3E849AFF24E697D8001F8505 /* Artboard 1noText.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE824E697D8001F8505 /* Artboard 1noText.svg */; };
-		3E849B0024E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE924E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg */; };
-		3E849B0124E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE924E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg */; };
-		3E849B0224E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AE924E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg */; };
-		3E849B0324E697D8001F8505 /* logo_text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEA24E697D8001F8505 /* logo_text.svg */; };
-		3E849B0424E697D8001F8505 /* logo_text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEA24E697D8001F8505 /* logo_text.svg */; };
-		3E849B0524E697D8001F8505 /* logo_text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEA24E697D8001F8505 /* logo_text.svg */; };
-		3E849B0624E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEB24E697D8001F8505 /* gradient-plane-bg-text.svg */; };
-		3E849B0724E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEB24E697D8001F8505 /* gradient-plane-bg-text.svg */; };
-		3E849B0824E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEB24E697D8001F8505 /* gradient-plane-bg-text.svg */; };
-		3E849B0924E697D8001F8505 /* deco-bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEC24E697D8001F8505 /* deco-bg.svg */; };
-		3E849B0A24E697D8001F8505 /* deco-bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEC24E697D8001F8505 /* deco-bg.svg */; };
-		3E849B0B24E697D8001F8505 /* deco-bg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEC24E697D8001F8505 /* deco-bg.svg */; };
-		3E849B0C24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AED24E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
-		3E849B0D24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AED24E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
-		3E849B0E24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AED24E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */; };
-		3E849B0F24E697D9001F8505 /* Asset 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEF24E697D8001F8505 /* Asset 1.svg */; };
-		3E849B1024E697D9001F8505 /* Asset 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEF24E697D8001F8505 /* Asset 1.svg */; };
-		3E849B1124E697D9001F8505 /* Asset 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AEF24E697D8001F8505 /* Asset 1.svg */; };
-		3E849B1224E697D9001F8505 /* Asset 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF024E697D8001F8505 /* Asset 1@2x.png */; };
-		3E849B1324E697D9001F8505 /* Asset 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF024E697D8001F8505 /* Asset 1@2x.png */; };
-		3E849B1424E697D9001F8505 /* Asset 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF024E697D8001F8505 /* Asset 1@2x.png */; };
-		3E849B1524E697D9001F8505 /* buttonPlainBlue.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF124E697D8001F8505 /* buttonPlainBlue.svg */; };
-		3E849B1624E697D9001F8505 /* buttonPlainBlue.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF124E697D8001F8505 /* buttonPlainBlue.svg */; };
-		3E849B1724E697D9001F8505 /* buttonPlainBlue.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF124E697D8001F8505 /* buttonPlainBlue.svg */; };
-		3E849B1824E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF224E697D8001F8505 /* buttonMotherOfPearl.svg */; };
-		3E849B1924E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF224E697D8001F8505 /* buttonMotherOfPearl.svg */; };
-		3E849B1A24E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF224E697D8001F8505 /* buttonMotherOfPearl.svg */; };
-		3E849B1B24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF324E697D8001F8505 /* buttonPlainBlue_ON.svg */; };
-		3E849B1C24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF324E697D8001F8505 /* buttonPlainBlue_ON.svg */; };
-		3E849B1D24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E849AF324E697D8001F8505 /* buttonPlainBlue_ON.svg */; };
-		4F0BA48424698FA000DB93AC /* IGraphicsIOS_src.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA48324698FA000DB93AC /* IGraphicsIOS_src.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4F0BA47B24698DC900DB93AC /* IGraphicsIOS_src.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA47A24698DC900DB93AC /* IGraphicsIOS_src.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F0D965B23099F5A00BFDED0 /* IPlugProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF103420A0E55900D3092F /* IPlugProcessor.cpp */; };
 		4F10E7C020B17EDB00F5B09B /* NELVirtualControlSurface-iOS-MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F10E7BF20B17EDB00F5B09B /* NELVirtualControlSurface-iOS-MainInterface.storyboard */; };
 		4F1115CF2296DA95000CFCBF /* NELVirtualControlSurface-iOS-MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F10E7BF20B17EDB00F5B09B /* NELVirtualControlSurface-iOS-MainInterface.storyboard */; };
@@ -154,6 +36,7 @@
 		4FA61F8F22E89B4300A92C58 /* IGraphicsIOS_view.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F63699120A463AF0022C370 /* IGraphicsIOS_view.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4FA61F9022E8A1F500A92C58 /* IGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F63699420A463AF0022C370 /* IGraphics.cpp */; };
 		4FA61F9122E8A2A700A92C58 /* IGraphicsNanoVG_src.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D7DCB224AE821002A1A2A /* IGraphicsNanoVG_src.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4FA61F9222E8A2B500A92C58 /* NELVirtualControlSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF108720A1036200D3092F /* NELVirtualControlSurface.cpp */; };
 		4FA61F9422E8A71D00A92C58 /* IPlugAUViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF105A20A0E57100D3092F /* IPlugAUViewController.mm */; };
 		4FA61F9722E8A7E900A92C58 /* IPlugAUViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF105A20A0E57100D3092F /* IPlugAUViewController.mm */; };
 		4FB2269720A0D3A800614769 /* NELVirtualControlSurface-iOS-LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2269620A0D3A800614769 /* NELVirtualControlSurface-iOS-LaunchScreen.storyboard */; };
@@ -207,63 +90,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3E849A4124E68FB2001F8505 /* GlobSeqHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobSeqHelpers.h; sourceTree = "<group>"; };
-		3E849A4224E68FB2001F8505 /* NEL_PacketSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_PacketSender.cpp; sourceTree = "<group>"; };
-		3E849A4324E68FB2001F8505 /* NEL_VCS_Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_VCS_Constants.hpp; sourceTree = "<group>"; };
-		3E849A4424E68FB2001F8505 /* NEL_EditableText.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_EditableText.hpp; sourceTree = "<group>"; };
-		3E849A4524E68FB2001F8505 /* NEL_PacketListener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_PacketListener.hpp; sourceTree = "<group>"; };
-		3E849A4624E68FB2001F8505 /* NELVirtualControlSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELVirtualControlSurface.h; sourceTree = "<group>"; };
-		3E849A4824E68FB2001F8505 /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
-		3E849A4924E68FB2001F8505 /* OscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPacketListener.h; sourceTree = "<group>"; };
-		3E849A4A24E68FB2001F8505 /* OscTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscTypes.cpp; sourceTree = "<group>"; };
-		3E849A4B24E68FB2001F8505 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPrintReceivedElements.h; sourceTree = "<group>"; };
-		3E849A4C24E68FB2001F8505 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
-		3E849A4D24E68FB2001F8505 /* OscHostEndianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
-		3E849A4E24E68FB2001F8505 /* OscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
-		3E849A4F24E68FB2001F8505 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscOutboundPacketStream.h; sourceTree = "<group>"; };
-		3E849A5024E68FB2001F8505 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscReceivedElements.cpp; sourceTree = "<group>"; };
-		3E849A5124E68FB2001F8505 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscPrintReceivedElements.cpp; sourceTree = "<group>"; };
-		3E849A5224E68FB2001F8505 /* OscReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
-		3E849A5324E68FB2001F8505 /* OscTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
-		3E849A5424E68FB2001F8505 /* NEL_GlyphButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_GlyphButton.cpp; sourceTree = "<group>"; };
-		3E849A5524E68FB2001F8505 /* NEL_VCS_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEL_VCS_Constants.h; sourceTree = "<group>"; };
-		3E849A5724E68FB2001F8505 /* NEL_OSC_Methods.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_OSC_Methods.hpp; sourceTree = "<group>"; };
-		3E849A5824E68FB2001F8505 /* NELVirtualControlSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NELVirtualControlSurface.cpp; sourceTree = "<group>"; };
-		3E849A5924E68FB2001F8505 /* NEL_GlyphButton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_GlyphButton.hpp; sourceTree = "<group>"; };
-		3E849A5A24E68FB2001F8505 /* NEL_VCS_Enums.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_VCS_Enums.hpp; sourceTree = "<group>"; };
-		3E849A5C24E68FB2001F8505 /* dial-generator.cfdg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dial-generator.cfdg"; sourceTree = "<group>"; };
-		3E849A5D24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dial-generator-TUNGSTEN.cfdg"; sourceTree = "<group>"; };
-		3E849A5E24E68FB2001F8505 /* NEL_OSC_Methods.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_OSC_Methods.cpp; sourceTree = "<group>"; };
-		3E849A5F24E68FB2001F8505 /* mDNS_IPExtract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mDNS_IPExtract.cpp; sourceTree = "<group>"; };
-		3E849A6024E68FB2001F8505 /* NEL_PacketSender.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEL_PacketSender.hpp; sourceTree = "<group>"; };
-		3E849A6124E68FB2001F8505 /* NEL_DualDial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_DualDial.cpp; sourceTree = "<group>"; };
-		3E849A6424E68FB2001F8505 /* NetworkingUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkingUtils.cpp; sourceTree = "<group>"; };
-		3E849A6524E68FB2001F8505 /* UdpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
-		3E849A6624E68FB2001F8505 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
-		3E849A6724E68FB2001F8505 /* TimerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
-		3E849A6824E68FB2001F8505 /* PacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
-		3E849A6924E68FB2001F8505 /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
-		3E849A6A24E68FB2001F8505 /* IpEndpointName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IpEndpointName.cpp; sourceTree = "<group>"; };
-		3E849A6B24E68FB2001F8505 /* NetworkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
-		3E849A6F24E68FB2001F8505 /* NEL_EditableText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_EditableText.cpp; sourceTree = "<group>"; };
-		3E849A7124E68FB2001F8505 /* NEL_DualDial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEL_DualDial.h; sourceTree = "<group>"; };
-		3E849A7224E68FB2001F8505 /* NEL_PacketListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEL_PacketListener.cpp; sourceTree = "<group>"; };
-		3E849AD924E6922F001F8505 /* IconsForkAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconsForkAwesome.h; sourceTree = "<group>"; };
-		3E849AE424E697D8001F8505 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		3E849AE524E697D8001F8505 /* Menlo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Menlo-Regular.ttf"; sourceTree = "<group>"; };
-		3E849AE624E697D8001F8505 /* forkawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "forkawesome-webfont.ttf"; sourceTree = "<group>"; };
-		3E849AE824E697D8001F8505 /* Artboard 1noText.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artboard 1noText.svg"; sourceTree = "<group>"; };
-		3E849AE924E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dial-generator-TUNGSTEN-qnf-s.svg"; sourceTree = "<group>"; };
-		3E849AEA24E697D8001F8505 /* logo_text.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = logo_text.svg; sourceTree = "<group>"; };
-		3E849AEB24E697D8001F8505 /* gradient-plane-bg-text.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gradient-plane-bg-text.svg"; sourceTree = "<group>"; };
-		3E849AEC24E697D8001F8505 /* deco-bg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "deco-bg.svg"; sourceTree = "<group>"; };
-		3E849AED24E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dial-generator-TUNGSTEN-qnf-dark-s.svg"; sourceTree = "<group>"; };
-		3E849AEF24E697D8001F8505 /* Asset 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 1.svg"; sourceTree = "<group>"; };
-		3E849AF024E697D8001F8505 /* Asset 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1@2x.png"; sourceTree = "<group>"; };
-		3E849AF124E697D8001F8505 /* buttonPlainBlue.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buttonPlainBlue.svg; sourceTree = "<group>"; };
-		3E849AF224E697D8001F8505 /* buttonMotherOfPearl.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buttonMotherOfPearl.svg; sourceTree = "<group>"; };
-		3E849AF324E697D8001F8505 /* buttonPlainBlue_ON.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buttonPlainBlue_ON.svg; sourceTree = "<group>"; };
-		4F0BA48324698FA000DB93AC /* IGraphicsIOS_src.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGraphicsIOS_src.m; sourceTree = "<group>"; };
+		4F0BA47A24698DC900DB93AC /* IGraphicsIOS_src.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGraphicsIOS_src.m; sourceTree = "<group>"; };
 		4F10E7BF20B17EDB00F5B09B /* NELVirtualControlSurface-iOS-MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "NELVirtualControlSurface-iOS-MainInterface.storyboard"; path = "../resources/NELVirtualControlSurface-iOS-MainInterface.storyboard"; sourceTree = "<group>"; };
 		4F10E7C520B189DD00F5B09B /* NELVirtualControlSurface-iOS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "NELVirtualControlSurface-iOS.entitlements"; sourceTree = "<group>"; };
 		4F2020F620A1B2B500F22200 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../scripts; sourceTree = "<group>"; };
@@ -363,6 +190,7 @@
 		4FBBD7F420B6ABE700A37DE2 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = config; path = ../config; sourceTree = "<group>"; };
 		4FC46E58231440C8000045E7 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = web; path = ../resources/web; sourceTree = "<group>"; };
 		4FC82B4720BD524700722133 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../resources/img; sourceTree = "<group>"; };
+		4FC82B4820BD524700722133 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../resources/fonts; sourceTree = "<group>"; };
 		4FCE29DE21D6ED81004BCBA1 /* ITextEntryControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITextEntryControl.h; sourceTree = "<group>"; };
 		4FCE29DF21D6ED81004BCBA1 /* ITextEntryControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ITextEntryControl.cpp; sourceTree = "<group>"; };
 		4FDA600520B5868D00C49ABA /* NELVirtualControlSurface-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "NELVirtualControlSurface-ios.xcconfig"; path = "../config/NELVirtualControlSurface-ios.xcconfig"; sourceTree = "<group>"; };
@@ -415,6 +243,8 @@
 		4FFF107720A0E5A500D3092F /* wdlendian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wdlendian.h; path = ../../../WDL/wdlendian.h; sourceTree = "<group>"; };
 		4FFF108220A0FB1400D3092F /* common-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "common-ios.xcconfig"; path = "../../../common-ios.xcconfig"; sourceTree = "<group>"; };
 		4FFF108420A1036200D3092F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; };
+		4FFF108720A1036200D3092F /* NELVirtualControlSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NELVirtualControlSurface.cpp; path = ../NELVirtualControlSurface.cpp; sourceTree = "<group>"; };
+		4FFF108820A1036200D3092F /* NELVirtualControlSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NELVirtualControlSurface.h; path = ../NELVirtualControlSurface.h; sourceTree = "<group>"; };
 		91236D0D1B08F42B00734C5E /* NELVirtualControlSurface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NELVirtualControlSurface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91236D771B08F59300734C5E /* NELVirtualControlSurfaceAppExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NELVirtualControlSurfaceAppExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -446,126 +276,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E849A4024E68FB2001F8505 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				3E849AD924E6922F001F8505 /* IconsForkAwesome.h */,
-				3E849A5B24E68FB2001F8505 /* CFDG */,
-				3E849A4124E68FB2001F8505 /* GlobSeqHelpers.h */,
-				3E849A6224E68FB2001F8505 /* ip */,
-				3E849A5F24E68FB2001F8505 /* mDNS_IPExtract.cpp */,
-				3E849A6124E68FB2001F8505 /* NEL_DualDial.cpp */,
-				3E849A7124E68FB2001F8505 /* NEL_DualDial.h */,
-				3E849A6F24E68FB2001F8505 /* NEL_EditableText.cpp */,
-				3E849A4424E68FB2001F8505 /* NEL_EditableText.hpp */,
-				3E849A5424E68FB2001F8505 /* NEL_GlyphButton.cpp */,
-				3E849A5924E68FB2001F8505 /* NEL_GlyphButton.hpp */,
-				3E849A5E24E68FB2001F8505 /* NEL_OSC_Methods.cpp */,
-				3E849A5724E68FB2001F8505 /* NEL_OSC_Methods.hpp */,
-				3E849A7224E68FB2001F8505 /* NEL_PacketListener.cpp */,
-				3E849A4524E68FB2001F8505 /* NEL_PacketListener.hpp */,
-				3E849A4224E68FB2001F8505 /* NEL_PacketSender.cpp */,
-				3E849A6024E68FB2001F8505 /* NEL_PacketSender.hpp */,
-				3E849A5524E68FB2001F8505 /* NEL_VCS_Constants.h */,
-				3E849A4324E68FB2001F8505 /* NEL_VCS_Constants.hpp */,
-				3E849A5A24E68FB2001F8505 /* NEL_VCS_Enums.hpp */,
-				3E849A5824E68FB2001F8505 /* NELVirtualControlSurface.cpp */,
-				3E849A4624E68FB2001F8505 /* NELVirtualControlSurface.h */,
-				3E849A4724E68FB2001F8505 /* osc */,
-			);
-			name = src;
-			path = ../src;
-			sourceTree = "<group>";
-		};
-		3E849A4724E68FB2001F8505 /* osc */ = {
-			isa = PBXGroup;
-			children = (
-				3E849A4824E68FB2001F8505 /* OscOutboundPacketStream.cpp */,
-				3E849A4924E68FB2001F8505 /* OscPacketListener.h */,
-				3E849A4A24E68FB2001F8505 /* OscTypes.cpp */,
-				3E849A4B24E68FB2001F8505 /* OscPrintReceivedElements.h */,
-				3E849A4C24E68FB2001F8505 /* MessageMappingOscPacketListener.h */,
-				3E849A4D24E68FB2001F8505 /* OscHostEndianness.h */,
-				3E849A4E24E68FB2001F8505 /* OscException.h */,
-				3E849A4F24E68FB2001F8505 /* OscOutboundPacketStream.h */,
-				3E849A5024E68FB2001F8505 /* OscReceivedElements.cpp */,
-				3E849A5124E68FB2001F8505 /* OscPrintReceivedElements.cpp */,
-				3E849A5224E68FB2001F8505 /* OscReceivedElements.h */,
-				3E849A5324E68FB2001F8505 /* OscTypes.h */,
-			);
-			path = osc;
-			sourceTree = "<group>";
-		};
-		3E849A5B24E68FB2001F8505 /* CFDG */ = {
-			isa = PBXGroup;
-			children = (
-				3E849A5C24E68FB2001F8505 /* dial-generator.cfdg */,
-				3E849A5D24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg */,
-			);
-			path = CFDG;
-			sourceTree = "<group>";
-		};
-		3E849A6224E68FB2001F8505 /* ip */ = {
-			isa = PBXGroup;
-			children = (
-				3E849A6324E68FB2001F8505 /* posix */,
-				3E849A6624E68FB2001F8505 /* UdpSocket.h */,
-				3E849A6724E68FB2001F8505 /* TimerListener.h */,
-				3E849A6824E68FB2001F8505 /* PacketListener.h */,
-				3E849A6924E68FB2001F8505 /* IpEndpointName.h */,
-				3E849A6A24E68FB2001F8505 /* IpEndpointName.cpp */,
-				3E849A6B24E68FB2001F8505 /* NetworkingUtils.h */,
-			);
-			path = ip;
-			sourceTree = "<group>";
-		};
-		3E849A6324E68FB2001F8505 /* posix */ = {
-			isa = PBXGroup;
-			children = (
-				3E849A6424E68FB2001F8505 /* NetworkingUtils.cpp */,
-				3E849A6524E68FB2001F8505 /* UdpSocket.cpp */,
-			);
-			path = posix;
-			sourceTree = "<group>";
-		};
-		3E849AE324E697D8001F8505 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				3E849AE424E697D8001F8505 /* Roboto-Regular.ttf */,
-				3E849AE524E697D8001F8505 /* Menlo-Regular.ttf */,
-				3E849AE624E697D8001F8505 /* forkawesome-webfont.ttf */,
-			);
-			name = fonts;
-			path = ../resources/fonts;
-			sourceTree = "<group>";
-		};
-		3E849AE724E697D8001F8505 /* deco_svg */ = {
-			isa = PBXGroup;
-			children = (
-				3E849AE824E697D8001F8505 /* Artboard 1noText.svg */,
-				3E849AE924E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg */,
-				3E849AEA24E697D8001F8505 /* logo_text.svg */,
-				3E849AEB24E697D8001F8505 /* gradient-plane-bg-text.svg */,
-				3E849AEC24E697D8001F8505 /* deco-bg.svg */,
-				3E849AED24E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg */,
-			);
-			name = deco_svg;
-			path = ../resources/deco_svg;
-			sourceTree = "<group>";
-		};
-		3E849AEE24E697D8001F8505 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				3E849AEF24E697D8001F8505 /* Asset 1.svg */,
-				3E849AF024E697D8001F8505 /* Asset 1@2x.png */,
-				3E849AF124E697D8001F8505 /* buttonPlainBlue.svg */,
-				3E849AF224E697D8001F8505 /* buttonMotherOfPearl.svg */,
-				3E849AF324E697D8001F8505 /* buttonPlainBlue_ON.svg */,
-			);
-			name = img;
-			path = ../resources/img;
-			sourceTree = "<group>";
-		};
 		4F3E0F9B20A0C64100A9C2BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,7 +351,7 @@
 				4F63698F20A463AF0022C370 /* IGraphicsWin.cpp */,
 				4F63699020A463AF0022C370 /* IGraphicsIOS.h */,
 				4F63698E20A463AF0022C370 /* IGraphicsIOS.mm */,
-				4F0BA48324698FA000DB93AC /* IGraphicsIOS_src.m */,
+				4F0BA47A24698DC900DB93AC /* IGraphicsIOS_src.m */,
 				4F63698420A463AF0022C370 /* IGraphicsIOS_view.h */,
 				4F63699120A463AF0022C370 /* IGraphicsIOS_view.mm */,
 			);
@@ -693,10 +403,8 @@
 		4F8BF48D20A12D2E0081DF0A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3E849AE724E697D8001F8505 /* deco_svg */,
+				4FC82B4820BD524700722133 /* fonts */,
 				4FC82B4720BD524700722133 /* img */,
-				3E849AE324E697D8001F8505 /* fonts */,
-				3E849AEE24E697D8001F8505 /* img */,
 				4F2602DB2269F79200C7E97E /* tex */,
 				4FC46E58231440C8000045E7 /* web */,
 				4F10E7C520B189DD00F5B09B /* NELVirtualControlSurface-iOS.entitlements */,
@@ -849,8 +557,9 @@
 		91D3DA0B1B023C03008FFFBB = {
 			isa = PBXGroup;
 			children = (
-				3E849A4024E68FB2001F8505 /* src */,
 				4FFF108420A1036200D3092F /* config.h */,
+				4FFF108820A1036200D3092F /* NELVirtualControlSurface.h */,
+				4FFF108720A1036200D3092F /* NELVirtualControlSurface.cpp */,
 				4F8D8BD82316701900EFA1FB /* README.md */,
 				4F8BF48D20A12D2E0081DF0A /* Resources */,
 				4F67D51620A121F60061FB8E /* Other Sources */,
@@ -876,32 +585,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849AB924E68FB2001F8505 /* NetworkingUtils.h in Headers */,
-				3E849A7924E68FB2001F8505 /* NEL_PacketListener.hpp in Headers */,
-				3E849A7324E68FB2001F8505 /* GlobSeqHelpers.h in Headers */,
-				3E849A8524E68FB2001F8505 /* OscException.h in Headers */,
-				3E849AC424E68FB2001F8505 /* NEL_DualDial.h in Headers */,
-				3E849AA824E68FB2001F8505 /* NEL_PacketSender.hpp in Headers */,
-				3E849A8424E68FB2001F8505 /* OscHostEndianness.h in Headers */,
-				3E849A8624E68FB2001F8505 /* OscOutboundPacketStream.h in Headers */,
-				3E849A8324E68FB2001F8505 /* MessageMappingOscPacketListener.h in Headers */,
-				3E849A7A24E68FB2001F8505 /* NELVirtualControlSurface.h in Headers */,
 				4FA61F7C22E89A5900A92C58 /* AUv3Framework.h in Headers */,
-				3E849A9B24E68FB2001F8505 /* NEL_VCS_Enums.hpp in Headers */,
-				3E849AB424E68FB2001F8505 /* PacketListener.h in Headers */,
-				3E849A8E24E68FB2001F8505 /* OscTypes.h in Headers */,
-				3E849A7724E68FB2001F8505 /* NEL_VCS_Constants.hpp in Headers */,
-				3E849A9224E68FB2001F8505 /* NEL_VCS_Constants.h in Headers */,
-				3E849A7E24E68FB2001F8505 /* OscPacketListener.h in Headers */,
-				3E849ADA24E6922F001F8505 /* IconsForkAwesome.h in Headers */,
-				3E849A8224E68FB2001F8505 /* OscPrintReceivedElements.h in Headers */,
-				3E849AB324E68FB2001F8505 /* TimerListener.h in Headers */,
-				3E849AB524E68FB2001F8505 /* IpEndpointName.h in Headers */,
-				3E849AB224E68FB2001F8505 /* UdpSocket.h in Headers */,
-				3E849A8D24E68FB2001F8505 /* OscReceivedElements.h in Headers */,
-				3E849A7824E68FB2001F8505 /* NEL_EditableText.hpp in Headers */,
-				3E849A9624E68FB2001F8505 /* NEL_OSC_Methods.hpp in Headers */,
-				3E849A9A24E68FB2001F8505 /* NEL_GlyphButton.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,12 +659,12 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					4FA61F6D22E899B500A92C58 = {
-						DevelopmentTeam = 686EDA2T8T;
+						DevelopmentTeam = "$(DEVELOPMENT_TEAM)";
 						ProvisioningStyle = Automatic;
 					};
 					91236D0C1B08F42B00734C5E = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 686EDA2T8T;
+						DevelopmentTeam = "$(DEVELOPMENT_TEAM)";
 						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -996,8 +680,13 @@
 					};
 					91236D761B08F59300734C5E = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 686EDA2T8T;
+						DevelopmentTeam = "$(DEVELOPMENT_TEAM)";
 						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1027,22 +716,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849B0B24E697D8001F8505 /* deco-bg.svg in Resources */,
-				3E849B0824E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */,
-				3E849B0524E697D8001F8505 /* logo_text.svg in Resources */,
-				3E849B1A24E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */,
-				3E849AF624E697D8001F8505 /* Roboto-Regular.ttf in Resources */,
-				3E849A9E24E68FB2001F8505 /* dial-generator.cfdg in Resources */,
-				3E849B1724E697D9001F8505 /* buttonPlainBlue.svg in Resources */,
-				3E849AFC24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */,
-				3E849B1D24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */,
-				3E849B1124E697D9001F8505 /* Asset 1.svg in Resources */,
-				3E849B0E24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */,
-				3E849B0224E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */,
-				3E849AA124E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */,
-				3E849AFF24E697D8001F8505 /* Artboard 1noText.svg in Resources */,
-				3E849AF924E697D8001F8505 /* Menlo-Regular.ttf in Resources */,
-				3E849B1424E697D9001F8505 /* Asset 1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1051,25 +724,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1115CF2296DA95000CFCBF /* NELVirtualControlSurface-iOS-MainInterface.storyboard in Resources */,
-				3E849B1224E697D9001F8505 /* Asset 1@2x.png in Resources */,
-				3E849AF424E697D8001F8505 /* Roboto-Regular.ttf in Resources */,
 				4F3E0F6B20A0BCE300A9C2BE /* Images.xcassets in Resources */,
-				3E849B0024E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */,
-				3E849B0924E697D8001F8505 /* deco-bg.svg in Resources */,
-				3E849B0624E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */,
 				4FB2269720A0D3A800614769 /* NELVirtualControlSurface-iOS-LaunchScreen.storyboard in Resources */,
-				3E849B1824E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */,
-				3E849AFD24E697D8001F8505 /* Artboard 1noText.svg in Resources */,
-				3E849AFA24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */,
-				3E849A9F24E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */,
-				3E849B1B24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */,
-				3E849B0F24E697D9001F8505 /* Asset 1.svg in Resources */,
-				3E849B0324E697D8001F8505 /* logo_text.svg in Resources */,
 				4F3E0F6A20A0BCD900A9C2BE /* NELVirtualControlSurface-iOS.storyboard in Resources */,
-				3E849A9C24E68FB2001F8505 /* dial-generator.cfdg in Resources */,
-				3E849B0C24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */,
-				3E849AF724E697D8001F8505 /* Menlo-Regular.ttf in Resources */,
-				3E849B1524E697D9001F8505 /* buttonPlainBlue.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1077,23 +734,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849AA024E68FB2001F8505 /* dial-generator-TUNGSTEN.cfdg in Resources */,
-				3E849AF824E697D8001F8505 /* Menlo-Regular.ttf in Resources */,
-				3E849B0424E697D8001F8505 /* logo_text.svg in Resources */,
 				4F10E7C020B17EDB00F5B09B /* NELVirtualControlSurface-iOS-MainInterface.storyboard in Resources */,
-				3E849B0D24E697D9001F8505 /* dial-generator-TUNGSTEN-qnf-dark-s.svg in Resources */,
-				3E849AF524E697D8001F8505 /* Roboto-Regular.ttf in Resources */,
-				3E849B1324E697D9001F8505 /* Asset 1@2x.png in Resources */,
-				3E849B0724E697D8001F8505 /* gradient-plane-bg-text.svg in Resources */,
-				3E849B1024E697D9001F8505 /* Asset 1.svg in Resources */,
-				3E849B1924E697D9001F8505 /* buttonMotherOfPearl.svg in Resources */,
-				3E849B0124E697D8001F8505 /* dial-generator-TUNGSTEN-qnf-s.svg in Resources */,
-				3E849B1C24E697D9001F8505 /* buttonPlainBlue_ON.svg in Resources */,
-				3E849AFB24E697D8001F8505 /* forkawesome-webfont.ttf in Resources */,
-				3E849B1624E697D9001F8505 /* buttonPlainBlue.svg in Resources */,
-				3E849A9D24E68FB2001F8505 /* dial-generator.cfdg in Resources */,
-				3E849AFE24E697D8001F8505 /* Artboard 1noText.svg in Resources */,
-				3E849B0A24E697D8001F8505 /* deco-bg.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,41 +766,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849A9124E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */,
 				4FA61F9122E8A2A700A92C58 /* IGraphicsNanoVG_src.m in Sources */,
-				3E849AA424E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */,
 				4FA61F8422E89B2000A92C58 /* GenericUI.mm in Sources */,
 				4FA61F8622E89B2000A92C58 /* IPlugAUv3.mm in Sources */,
 				4FA61F8522E89B2000A92C58 /* IPlugAUAudioUnit.mm in Sources */,
+				4F0BA47B24698DC900DB93AC /* IGraphicsIOS_src.m in Sources */,
 				4FA61F8F22E89B4300A92C58 /* IGraphicsIOS_view.mm in Sources */,
-				3E849A7D24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */,
-				3E849A9924E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */,
-				4F0BA48424698FA000DB93AC /* IGraphicsIOS_src.m in Sources */,
-				3E849A8C24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */,
+				4FA61F8E22E89B4300A92C58 /* IGraphicsIOS.mm in Sources */,
 				4FA61F9022E8A1F500A92C58 /* IGraphics.cpp in Sources */,
 				4FA61F7E22E89AFF00A92C58 /* IPlugPluginBase.cpp in Sources */,
 				4FA61F8C22E89B3700A92C58 /* IControl.cpp in Sources */,
-				3E849AC224E68FB2001F8505 /* NEL_EditableText.cpp in Sources */,
 				4FA61F8D22E89B4300A92C58 /* IGraphicsCoreText.mm in Sources */,
 				4FA61F8922E89B3700A92C58 /* IControls.cpp in Sources */,
 				4FA61F8222E89AFF00A92C58 /* IPlugTimer.cpp in Sources */,
 				4FA61F8822E89B3700A92C58 /* ITextEntryControl.cpp in Sources */,
-				4FA61F8E22E89B4300A92C58 /* IGraphicsIOS.mm in Sources */,
-				3E849AA724E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */,
-				3E849A8124E68FB2001F8505 /* OscTypes.cpp in Sources */,
-				3E849A8924E68FB2001F8505 /* OscReceivedElements.cpp in Sources */,
-				3E849AB824E68FB2001F8505 /* IpEndpointName.cpp in Sources */,
 				4FA61F8B22E89B3700A92C58 /* IGraphicsEditorDelegate.cpp in Sources */,
 				4FA61F8322E89AFF00A92C58 /* IPlugPaths.mm in Sources */,
-				3E849AC724E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */,
 				4FA61F8122E89AFF00A92C58 /* IPlugParameter.cpp in Sources */,
 				4F0D965B23099F5A00BFDED0 /* IPlugProcessor.cpp in Sources */,
-				3E849A7624E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */,
 				4FA61F7F22E89AFF00A92C58 /* IPlugAPIBase.cpp in Sources */,
-				3E849AB124E68FB2001F8505 /* UdpSocket.cpp in Sources */,
-				3E849AAE24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */,
+				4FA61F9222E8A2B500A92C58 /* NELVirtualControlSurface.cpp in Sources */,
 				4FA61F8A22E89B3700A92C58 /* IPopupMenuControl.cpp in Sources */,
-				3E849AAB24E68FB2001F8505 /* NEL_DualDial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,26 +794,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E849A8724E68FB2001F8505 /* OscReceivedElements.cpp in Sources */,
-				3E849A9724E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */,
-				3E849AA224E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */,
 				4FDF6D7F2267CEBA0007B686 /* IPlugAUPlayer.mm in Sources */,
-				3E849AB624E68FB2001F8505 /* IpEndpointName.cpp in Sources */,
 				4FDF6D7B2267CE540007B686 /* AppDelegate.m in Sources */,
 				4FDF6D772267CE540007B686 /* AppViewController.mm in Sources */,
-				3E849AAC24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */,
-				3E849A8F24E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */,
-				3E849AA524E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */,
-				3E849AC024E68FB2001F8505 /* NEL_EditableText.cpp in Sources */,
-				3E849A7B24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */,
-				3E849AC524E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */,
 				4FA61F9422E8A71D00A92C58 /* IPlugAUViewController.mm in Sources */,
-				3E849A7424E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */,
-				3E849A8A24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */,
 				4FDF6D792267CE540007B686 /* main.m in Sources */,
-				3E849A7F24E68FB2001F8505 /* OscTypes.cpp in Sources */,
-				3E849AAF24E68FB2001F8505 /* UdpSocket.cpp in Sources */,
-				3E849AA924E68FB2001F8505 /* NEL_DualDial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1195,22 +807,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA61F9722E8A7E900A92C58 /* IPlugAUViewController.mm in Sources */,
-				3E849A7C24E68FB2001F8505 /* OscOutboundPacketStream.cpp in Sources */,
-				3E849AA324E68FB2001F8505 /* NEL_OSC_Methods.cpp in Sources */,
-				3E849A9824E68FB2001F8505 /* NELVirtualControlSurface.cpp in Sources */,
-				3E849A9024E68FB2001F8505 /* NEL_GlyphButton.cpp in Sources */,
-				3E849A8024E68FB2001F8505 /* OscTypes.cpp in Sources */,
-				3E849A8824E68FB2001F8505 /* OscReceivedElements.cpp in Sources */,
-				3E849AA624E68FB2001F8505 /* mDNS_IPExtract.cpp in Sources */,
-				3E849A7524E68FB2001F8505 /* NEL_PacketSender.cpp in Sources */,
-				3E849AAA24E68FB2001F8505 /* NEL_DualDial.cpp in Sources */,
 				4FA61F6822E8996C00A92C58 /* IPlugAUv3Appex.m in Sources */,
-				3E849A8B24E68FB2001F8505 /* OscPrintReceivedElements.cpp in Sources */,
-				3E849AB024E68FB2001F8505 /* UdpSocket.cpp in Sources */,
-				3E849AC624E68FB2001F8505 /* NEL_PacketListener.cpp in Sources */,
-				3E849AB724E68FB2001F8505 /* IpEndpointName.cpp in Sources */,
-				3E849AC124E68FB2001F8505 /* NEL_EditableText.cpp in Sources */,
-				3E849AAD24E68FB2001F8505 /* NetworkingUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1380,7 +977,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../src;
 			};
 			name = Debug;
 		};
@@ -1427,7 +1023,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../src;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

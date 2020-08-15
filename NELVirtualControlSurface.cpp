@@ -18,7 +18,6 @@ using namespace iplug;
 NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
     : Plugin(info, MakeConfig(kNumParams, kNumPresets))
     , nelosc( "localhost", 8080)
-
 {
   if (nelosc.udpListener.m_receiveSocket != nullptr) {
     nelosc.launchNetworkingThread();
@@ -26,52 +25,42 @@ NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
     m_noNetwork = true;
   }
     
-    InitParamRange(kDualDialInner, kDualDialInner + NBR_DUALDIALS - 1, 1, "Dual Dial %i", 0, 0., 1., 0, "%", 0, "Inner Value");
-    InitParamRange(kDualDialOuter, kDualDialOuter + NBR_DUALDIALS - 1, 1, "Dual Dial %i", 0, 0., 1., 0, "%", 0, "Outer Value");
+  InitParamRange(kDualDialInner, kDualDialInner + NBR_DUALDIALS - 1, 1, "Dual Dial %i", 0, 0., 1., 0, "%", 0, "Inner Value");
+  InitParamRange(kDualDialOuter, kDualDialOuter + NBR_DUALDIALS - 1, 1, "Dual Dial %i", 0, 0., 1., 0, "%", 0, "Outer Value");
 
-#if IPLUG_EDITOR // http://bit.ly/2S64BDd
-    mMakeGraphicsFunc = [&]()
-    {
-        return MakeGraphics(*this, PLUG_WIDTH, PLUG_HEIGHT, PLUG_FPS, GetScaleForScreen(PLUG_HEIGHT));
-    };
-  
-  
+  mMakeGraphicsFunc = [&]() {
+    return MakeGraphics(*this, PLUG_WIDTH, PLUG_HEIGHT, PLUG_FPS, GetScaleForScreen(PLUG_HEIGHT));
+  };
+
 #pragma mark Layout lambda init
-    mLayoutFunc = [&](IGraphics * pGraphics)
-    {
-        // start layout lambda function
-        // load some dependencies here
-        pGraphics->AttachCornerResizer(EUIResizerMode::Scale, false);
-        pGraphics->EnableMouseOver(true);
-        pGraphics->EnableTooltips(true);
-        pGraphics->Resize(PLUG_WIDTH, PLUG_HEIGHT, 1.333f);
-        pGraphics->LoadFont("Roboto-Regular", ROBOTO_FN);
-        pGraphics->LoadFont("Menlo", MENLO_FN);
-        pGraphics->LoadFont("ForkAwesome", FORK_AWESOME_FN);
-        
+    mLayoutFunc = [&](IGraphics * pGraphics) {
+      // start layout lambda function
+      // load some dependencies here
+      pGraphics->AttachCornerResizer(EUIResizerMode::Scale, false);
+      pGraphics->EnableMouseOver(true);
+      pGraphics->EnableTooltips(true);
+      pGraphics->Resize(PLUG_WIDTH, PLUG_HEIGHT, 1.333f);
+      pGraphics->LoadFont("Roboto-Regular", ROBOTO_FN);
+      pGraphics->LoadFont("Menlo", MENLO_FN);
+      pGraphics->LoadFont("ForkAwesome", FORK_AWESOME_FN);
+      
 #pragma mark some lambdas used in main layout lambda
-      /*
-       flip the visibility of the OSC addresses
-      */
+      //flip the visibility of the OSC addresses
       auto showHideAddressInfo =
         [this] (IControl * pCaller) {
           hideReadouts = !hideReadouts;
-          
           GetUI()->ForControlInGroup(
                                      "addressStems",
                                       [ ] (IControl& field) { field.Hide(!field.IsHidden()); });
                                     };
-      
       auto showHideSocketInfo =
         [this] (IControl * pCaller) {
-     
         GetUI()->ForControlInGroup(
                                   "netInfo",
                                   [ ] (IControl& field) { field.Hide(!field.IsHidden()); });
         };
-     /*
-       if valid port number, make new connection
-      */
+      
+      // if valid port number, make new connection
       auto changeTargetPort =
         [this] (IControl * pCaller) {
           if (!beSlimeConnected) {
@@ -79,21 +68,18 @@ NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
             auto inputtedPortNumber = gsh->cstring_to_ul(targetPortDisplay->GetStr() );
               
             if ( ((inputtedPortNumber > 0) && (inputtedPortNumber < ULONG_MAX)) && (nelosc.m_targetPort != inputtedPortNumber) ) {
-                      targetPortDisplay->SetStr( std::to_string(inputtedPortNumber).c_str() );
-                      nelosc.udpSender->changeTargetPort(static_cast<int> (inputtedPortNumber) );
-                      errno = 0;  //best practice, reset errno variable after check
-                   } else if ( (inputtedPortNumber == 0) | (inputtedPortNumber == ULONG_MAX) ) {
-                      targetPortDisplay->SetStr( std::to_string(nelosc.m_targetPort).c_str() );
-                      errno = 0; }
+              targetPortDisplay->SetStr( std::to_string(inputtedPortNumber).c_str() );
+              nelosc.udpSender->changeTargetPort(static_cast<int> (inputtedPortNumber) );
+              errno = 0;  //best practice, reset errno variable after check
+            } else if ( (inputtedPortNumber == 0) | (inputtedPortNumber == ULONG_MAX) ) {
+              targetPortDisplay->SetStr( std::to_string(nelosc.m_targetPort).c_str() );
+              errno = 0; }
           } else {
             nelosc.udpSender->setTargetPortForKyma();
           }
         };
       
-      /*
-        if valid port number, make new connection
-       */
-  
+      // if valid port number, make new connection
       auto changeListenerPort =
       [this] (IControl * pCaller) {
         if (!beSlimeConnected) {
@@ -103,12 +89,12 @@ NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
             
           if ( ((inputtedPortNumber > 0) && (inputtedPortNumber < ULONG_MAX)) && (nelosc.m_listenerPort != inputtedPortNumber) ) {
                     targetPortDisplay->SetStr( std::to_string(inputtedPortNumber).c_str() );
-            //TODO
-                    //nelosc.udpListener.changeListenPort(static_cast<int> (inputtedPortNumber) );
-                    errno = 0;  //best practice, reset errno variable after check
-                 } else if ( (inputtedPortNumber == 0) | (inputtedPortNumber == ULONG_MAX) ) {
-                    targetPortDisplay->SetStr( std::to_string(nelosc.m_listenerPort).c_str() );
-                    errno = 0; }
+          //TODO
+              //nelosc.udpListener.changeListenPort(static_cast<int> (inputtedPortNumber) );
+              errno = 0;  //best practice, reset errno variable after check
+           } else if ( (inputtedPortNumber == 0) | (inputtedPortNumber == ULONG_MAX) ) {
+              targetPortDisplay->SetStr( std::to_string(nelosc.m_listenerPort).c_str() );
+              errno = 0; }
         }
       };
       
@@ -145,17 +131,17 @@ NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
       
       
 #pragma mark console text
-        //▼ network logging console outputs OSC messages and stuff
+      //▼ network logging console outputs OSC messages and stuff
       
-        pGraphics->AttachControl(new ITextControl
-                                (consoleBounds,
-                                consoleText.c_str(),
-                                DEFAULT_CONSOLE_TEXT,
-                                NEL_TUNGSTEN,
-                                true
-                                )
-                                 , kCtrlNetStatus)->Hide(true);
-      
+      pGraphics->AttachControl(new ITextControl
+                              (consoleBounds,
+                              consoleText.c_str(),
+                              DEFAULT_CONSOLE_TEXT,
+                              NEL_TUNGSTEN,
+                              true
+                              )
+                               , kCtrlNetStatus)->Hide(true);
+    
       
 #pragma mark decorative plot with reveal
   
@@ -166,8 +152,6 @@ NELVirtualControlSurface::NELVirtualControlSurface(const InstanceInfo &info)
 
       }, 256, "", DEFAULT_STYLE.WithColor(kBG, COLOR_TRANSPARENT)), kCtrlPlot, "plot")->SetAnimationEndActionFunction(showHideSocketInfo);
       
-     
-
 #pragma mark preference widgets
          
       IRECT settingWidgetBounds = plotBounds.GetGridCell(1, 11, 3, 12).GetScaledAboutCentre(1.5f).GetHPadded(-15.f);
@@ -418,10 +402,6 @@ void NELVirtualControlSurface::updateNumericDisplays( ) {
   
 }
 
-
-#endif
-
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 NELVirtualControlSurface::~NELVirtualControlSurface()
 {
@@ -463,18 +443,18 @@ void NELVirtualControlSurface::OnIdle() {
   if ( cnslButton->GetMouseIsOver()  ) { pGraphics->SetMouseCursor(ECursor::HELP); hover = true; }
   
   if ( !cnsl->IsHidden() ) {
-        auto msg = nelosc.getLatestMessage();
-        cnsl->SetAnimation( unGhostText , 500.0f);
-        
-          if (!msg.empty() && msg != prevMsg) {
-            cnslButton->SetDirty(false);
-            consoleText = msg;
-            cnsl->SetStr(consoleText.c_str());
-            cnsl->SetDirty(false);
-            cnsl->SetAnimation( unGhostText , 500.0f);
-          } else if (cnsl->GetAnimationProgress() > 0.99f) { cnsl->SetAnimation( ghostText , 500.0f); }
-        
-        prevMsg = msg;
+    auto msg = nelosc.getLatestMessage();
+    cnsl->SetAnimation( unGhostText , 500.0f);
+    
+    if (!msg.empty() && msg != prevMsg) {
+      cnslButton->SetDirty(false);
+      consoleText = msg;
+      cnsl->SetStr(consoleText.c_str());
+      cnsl->SetDirty(false);
+      cnsl->SetAnimation( unGhostText , 500.0f);
+    } else if (cnsl->GetAnimationProgress() > 0.99f) { cnsl->SetAnimation( ghostText , 500.0f); }
+  
+    prevMsg = msg;
   }
 
   
@@ -490,17 +470,16 @@ void NELVirtualControlSurface::OnIdle() {
   }
 }
 
-
-#if IPLUG_DSP
 // muted
 void NELVirtualControlSurface::ProcessBlock(sample **inputs, sample **outputs, int nFrames)
 {
-     for(int i=0;i<nFrames;i++) {
-       outputs[0][i] = 0.;
-       outputs[1][i] = 0.;
-     }
+   for(int i=0;i<nFrames;i++) {
+     outputs[0][i] = 0.;
+     outputs[1][i] = 0.;
+   }
 }
-#endif
+
+
 
 
 

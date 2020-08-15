@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F20EEC8132C69FE0030E34C"
-               BuildableName = "NELVirtualControlSurface.vst"
-               BlueprintName = "VST2"
+               BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
+               BuildableName = "NELVirtualControlSurfaceVST3Controller.a"
+               BlueprintName = "VST3C"
                ReferencedContainer = "container:NELVirtualControlSurface-macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,29 +39,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      enableGPUFrameCaptureMode = "3"
-      enableGPUValidationMode = "1"
       allowLocationSimulation = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "com.cockos.reaper"
-         FilePath = "/Applications/REAPER64.app">
-      </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F20EEC8132C69FE0030E34C"
-            BuildableName = "NELVirtualControlSurface.vst"
-            BlueprintName = "VST2"
+            BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
+            BuildableName = "NELVirtualControlSurfaceVST3Controller.a"
+            BlueprintName = "VST3C"
             ReferencedContainer = "container:NELVirtualControlSurface-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "$(SRCROOT)/../$(PRODUCT_NAME).RPP"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -69,10 +56,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         FilePath = "/Applications/REAPER.app">
-      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
+            BuildableName = "NELVirtualControlSurfaceVST3Controller.a"
+            BlueprintName = "VST3C"
+            ReferencedContainer = "container:NELVirtualControlSurface-macOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include "IPlug_include_in_plug_hdr.h"
 #include "NEL_VCS_Constants.h"
 #include "IconsForkAwesome.h"
@@ -14,14 +13,14 @@
 
 const int kNumPresets = 1;
 
+using namespace iplug;
+
 #pragma mark NEL_enumerators
 
-
-class NELVirtualControlSurface final : public iplug::Plugin
+class NELVirtualControlSurface final : public Plugin
 {
-  
 public:
-  NELVirtualControlSurface(const iplug::InstanceInfo& info);
+  NELVirtualControlSurface(const InstanceInfo& info);
   ~NELVirtualControlSurface();
   
   void OnIdle() override;
@@ -40,7 +39,6 @@ public:
   
   bool hideReadouts { true } ;
   bool hover {false};
-  
   
   IText numericDisplayTextDef;
   IText ledOn;
@@ -72,15 +70,10 @@ public:
   void updateNumericDisplays();
   void hideNumericDisplays( const bool );
   std::unique_ptr<GlobSeqHelpers> gsh = std::make_unique<GlobSeqHelpers>();
-
-  
   
   private:
   bool m_noNetwork = false;
   
-  
-#if IPLUG_DSP // http://bit.ly/2S64BDd
-  void ProcessBlock(iplug::sample** inputs, iplug::sample** outputs, int nFrames) override;
-#endif
+  void ProcessBlock(sample** inputs, sample** outputs, int nFrames) override;
 };
 
