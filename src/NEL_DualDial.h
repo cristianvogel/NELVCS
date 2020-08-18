@@ -29,6 +29,8 @@ public:
                 , int flashRate = 0
                 , float a1 = -135.f, float a2 = 135.f, float aAnchor = -135.f
                 );
+  
+  ~NEL_DualDial();
    
   std::atomic<int> atomicTimerMillis;
   std::atomic<int> atomicPulseTimerScalar{ 1000 }; // todo: use this for host BPM sync
@@ -52,8 +54,7 @@ public:
   NEL_DualDial* setupButtonStateSVG( const ISVG& on , const ISVG& off);
 
   int tickMarks {10};
- 
-  
+
   
   IRECT* getDialBounds();
   

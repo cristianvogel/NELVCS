@@ -41,7 +41,8 @@ NEL_DualDial::NEL_DualDial(
       togglePulse(true);
     }
   };
-   doubleDialPulseTimer->Create(pulseTimerFunc, 10.0f);
+  
+  doubleDialPulseTimer = doubleDialPulseTimer->Create(pulseTimerFunc, 10.0f);
   
   int allValues = static_cast<int>(params.size());
   SetNVals(allValues);
@@ -55,6 +56,10 @@ NEL_DualDial::NEL_DualDial(
   SetValue(0.5, 1);
   SetValue(0, 0);
 }
+
+NEL_DualDial::~NEL_DualDial() {
+  if (doubleDialPulseTimer != nullptr) doubleDialPulseTimer->Stop();
+};
 
 #pragma mark Draw()
 
